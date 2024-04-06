@@ -4,11 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Screenshot Capture</title>
 </head>
 
 <body>
-
+    <div class="login">
+        <form class="login-form">
+            <h2>Login</h2>
+            <div class="image-container">
+                <img src="" id="image" width="125px" height="125px">
+                <input type="file" id="file" name="filename">
+            </div>
+            <div class="input-group">
+                <label for="username">Usuário</label>
+                <input type="text" id="username" placeholder="Nome de usuário" required autocomplete="off">
+            </div>
+            <div class="input-group">
+                <label for="password">Senha</label>
+                <input type="password" id="password" placeholder="Senha" required>
+            </div>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <button id="screenshotBtn">Fazer Screenshot</button>
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
