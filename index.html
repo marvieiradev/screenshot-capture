@@ -13,8 +13,11 @@
         <form class="login-form">
             <h2>Login</h2>
             <div class="image-container">
-                <img src="" id="image" width="125px" height="125px">
-                <input type="file" id="file" name="filename">
+                <img src="images/img.jpg" id="image">
+                <div class="input-file">
+                    <label for="file"><i class="fa-solid fa-camera"></i></label>
+                    <input type="file" id="file" name="filename">
+                </div>
             </div>
             <div class="input-group">
                 <label for="username">Usuário</label>
@@ -28,6 +31,7 @@
         </form>
     </div>
     <button id="screenshotBtn">Fazer Screenshot</button>
+    <script src="https://kit.fontawesome.com/8e4a25e86e.js" crossorigin="anonymous"></script>
     <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
     <script src="script.js"></script>
 </body>
