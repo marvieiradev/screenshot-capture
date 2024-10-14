@@ -7,3 +7,5 @@ App simples capaz de tirar screenshots da tela, utilizando a biblioteca html2can
 ## Informações
 
 Projeto desenvolvido utilizando apenas HTML, CSS e JavaScript.
+
+<img src="screenshot.jpg"/>
